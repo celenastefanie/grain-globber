@@ -10,4 +10,5 @@ grains.forEach(function (grain) {
   $img.attr('src', 'images/' + grain.img);
   $p.html(grain.desc);
   $li.append($name, $img, $p);
+  $ul.append($li);
 });
