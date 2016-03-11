@@ -14,13 +14,14 @@ html {
 }
 
 .grains li {
-  display: block;
-  padding: 10px;
+  padding-bottom: 5px;
 }
 
 .grains img {
   width: 100px;
   float: left;
+  margin-right: 5px;
+  display: inline-block;
 }
 
 .grains h2 {
@@ -31,6 +32,5 @@ html {
 
 .grains p {
   font-style: italic;
-  font-size: .75em;
   margin-top: 0;
 }
